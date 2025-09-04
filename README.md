@@ -1,2 +1,10 @@
 # Stockeando
-Stock
+Estamos planificando la creación de un sistema de stock para gestionar un inventario compuesto por aproximadamente 200 productos. Este sistema estará diseñado para facilitar la organización, el seguimiento y el control eficiente de todos los artículos disponibles.
+
+Una de las características más importantes será la sección dedicada a la localización de cada producto dentro del stock. Esto permitirá a los usuarios visualizar de manera clara y precisa en qué lugar se encuentra cada artículo, facilitando su búsqueda y evitando pérdidas de tiempo. Además, esta función permitirá llevar un control en tiempo real del inventario, optimizando la logística interna y mejorando la eficiencia operativa.
+
+Otra funcionalidad clave del sistema será la posibilidad de identificar productos que se encuentren dañados o rotos. Los usuarios podrán marcar esos productos directamente en la plataforma, indicando su estado actual. Para complementar esto, habrá un espacio para dejar comentarios o anotaciones sobre el daño o el motivo por el cual el producto está fuera de servicio. Esto es fundamental para mantener una comunicación fluida entre los miembros del equipo, asegurando que todos estén informados sobre el estado real de los artículos.
+
+Desde la perspectiva administrativa, el sistema permitirá a los administradores gestionar estos estados de los productos. Ellos tendrán la capacidad de actualizar la información, cambiando el estado de un producto de “disponible” a “roto” o viceversa, según corresponda. Esta gestión centralizada garantiza que el inventario esté siempre actualizado y refleje con precisión la situación actual de cada artículo.
+
+En resumen, este sistema de stock no solo permitirá controlar la cantidad y ubicación de los productos, sino que también facilitará la gestión del estado de cada uno, mejorando la comunicación interna y optimizando los procesos administrativos relacionados con el inventario. Esto contribuirá a un manejo más eficiente y ordenado, minimizando pérdidas y asegurando que los recursos estén siempre disponibles y en condiciones óptimas para su uso 
