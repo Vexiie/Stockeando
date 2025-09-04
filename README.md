@@ -15,15 +15,13 @@ División de Tareas:
 Abi: 
 
 
-1-Descripción de la problemática
+1-Descripción de la problemática Descripción de la solución. (listo)
 
-2-Descripción de la solución. (dejar plasmada en el README del Repo GIT branch MAIN)
+4-Listado de funcionalidades (listo)
 
-4-Listado de funcionalidades
+11-DER  ( chen )(SQL Normalizado 1°, 2° y 3° forma normal  ) (semi)
 
-11-DER  ( chen )(SQL Normalizado 1°, 2° y 3° forma normal  ) 
-
-12-Armar la DB .SQL  (en phpMyAdmin o MySqlWorkBench)  (se entrega el .sql)
+12-Armar la DB .SQL  (en phpMyAdmin o MySqlWorkBench)  (se entrega el .sql) (editando)
 
 Ari:
 
