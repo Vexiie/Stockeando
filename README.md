@@ -26,6 +26,7 @@ Abi:
 12-Armar la DB .SQL  (en phpMyAdmin o MySqlWorkBench)  (se entrega el .sql)
 
 Ari:
+
 5-Eleccion de entorno/s (web, mobile, escritorio) (justificación de porque si y porque no) (pros y contras) (seguir lineamiento de STREAMBE)
 
 6-Eleccion de lenguajes para su desarrollo (justificacion de porque si y porque no) (pros y contras) (seguir lineamiento de STREAMBE)
@@ -38,6 +39,7 @@ Ari:
 
 
 Eze: 
+
 3-Análisis de Requerimientos: funcionales y no funcionales  (agregar justificaciones/descripción de c/u)
 
 8-Realizar la encuestas y entrevistas correspondiente para el análisis de desarrollo. ( debe tener preguntas abiertas, cerradas y de consenso)
