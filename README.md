@@ -9,28 +9,41 @@ Desde la perspectiva administrativa, el sistema permitirá a los administradores
 
 En resumen, este sistema de stock no solo permitirá controlar la cantidad y ubicación de los productos, sino que también facilitará la gestión del estado de cada uno, mejorando la comunicación interna y optimizando los procesos administrativos relacionados con el inventario. Esto contribuirá a un manejo más eficiente y ordenado, minimizando pérdidas y asegurando que los recursos estén siempre disponibles y en condiciones óptimas para su uso 
 
-Repartición de tareas:
+
 División de Tareas: 
 
 Abi: 
 
 
 1-Descripción de la problemática
+
 2-Descripción de la solución. (dejar plasmada en el README del Repo GIT branch MAIN)
-4-Listado de funcionalidades 
+
+4-Listado de funcionalidades
+
 11-DER  ( chen )(SQL Normalizado 1°, 2° y 3° forma normal  ) 
+
 12-Armar la DB .SQL  (en phpMyAdmin o MySqlWorkBench)  (se entrega el .sql)
 
 Ari:
 5-Eleccion de entorno/s (web, mobile, escritorio) (justificación de porque si y porque no) (pros y contras) (seguir lineamiento de STREAMBE)
+
 6-Eleccion de lenguajes para su desarrollo (justificacion de porque si y porque no) (pros y contras) (seguir lineamiento de STREAMBE)
+
 7-Diagrama GANTT + Camino Critico (PERT)  (cronograma ProjectLibre)  ( incluir los recursos humanos y físicos para trabajar)   (Role de recurso: Desarrollador, Analista, Tester, DBA, incluyendo los de SCRUM) (calculo e investigación de precios a cobrar por cada tareas)
+
 10-Estimación de entrega (esto es el MVP )
-13-Bocetos de las vistas: prototipado rápido ( en formato canvas o Figma)   
+
+13-Bocetos de las vistas: prototipado rápido ( en formato canvas o Figma)  
+
 
 Eze: 
 3-Análisis de Requerimientos: funcionales y no funcionales  (agregar justificaciones/descripción de c/u)
+
 8-Realizar la encuestas y entrevistas correspondiente para el análisis de desarrollo. ( debe tener preguntas abiertas, cerradas y de consenso)
+
 9-Diagrama de caso de uso Simplificado (hombre de palo y elipses)
+
 14-Roles, funciones Scrum y backlog   (ProductOwner,  ScrumMaster, etc)
+
 15-Propuesta funcional
