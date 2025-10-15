@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stockeando — Gestión de Inventario</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="min-h-screen w-full bg-dark relative">
+    <!-- Fondo -->
+    <div
+      class="absolute inset-0 z-0"
+      style="background-image: radial-gradient(circle 600px at 50% 50%, rgba(59,130,246,0.3), transparent);"
+    ></div>
+
+    <!-- HEADER -->
+    <header class="topbar">
+      <div class="brand">
+        <img src="logo.png" alt="Stockeando" class="logo"/>
+        <h1>Stockeando</h1>
+      </div>
+      <div class="header-actions">
+        <button id="btn-open-login" class="btn-icon">👤</button>
+        <button id="btn-add" class="btn-add">Agregar Item</button>
+      </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats-row">
+      <div class="stat" id="stat-total-card"><div class="small muted">Total</div><div class="large" id="stat-total">0</div></div>
+      <div class="stat" id="stat-enuso-card"><div class="small muted">En Uso</div><div class="large" id="stat-enuso">0</div></div>
+      <div class="stat" id="stat-reparacion-card"><div class="small muted">En Reparación</div><div class="large" id="stat-reparacion">0</div></div>
+      <div class="stat" id="stat-baja-card"><div class="small muted">Para dar de baja</div><div class="large" id="stat-baja">0</div></div>
+      <div class="stat" id="stat-noid-card"><div class="small muted">No identificado</div><div class="large" id="stat-noid">0</div></div>
+      <div class="stat" id="stat-ubicdes-card"><div class="small muted">Ubicación desconocida</div><div class="large" id="stat-ubicdes">0</div></div>
+    </section>
+
+    <!-- Buscador y filtros -->
+    <section class="search-panel card">
+      <div class="search-row">
+        <input id="search-input" placeholder="Buscar por nombre, código, ubicación..." class="search-input"/>
+      </div>
+      <div class="filters">
+        <select id="filter-state">
+          <option value="all">Estados</option>
+          <option value="En Uso">En Uso</option>
+          <option value="En Reparación">En Reparación</option>
+          <option value="Para dar de baja">Para dar de baja</option>
+          <option value="No identificado">No identificado</option>
+          <option value="Ubicación desconocida">Ubicación desconocida</option>
+        </select>
+
+        <select id="filter-category">
+          <option value="all">Categorías</option>
+          <option value="Mobiliario">Mobiliario</option>
+          <option value="Informática">Informática</option>
+          <option value="Electrodomésticos">Electrodomésticos</option>
+          <option value="Herramientas">Herramientas</option>
+          <option value="Otros">Otros</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Inventario -->
+    <main class="container">
+      <h2 id="inventory-title">Inventario (0)</h2>
+      <div id="cards-grid" class="cards-grid"></div>
+    </main>
+
+    <!-- Tarjetas -->
+    <template id="card-template">
+      <div class="card-group">
+        <div class="card-bg"></div>
+        <div class="card">
+          <div class="relative">
+            <div class="mb-4 flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <div class="icon-box">📦</div>
+                <h3 class="item-name">Item Name</h3>
+              </div>
+              <span class="status pill"></span>
+            </div>
+            <div class="mb-2">
+              <p class="description muted"></p>
+              <div class="meta small muted"><span class="code"></span> • <span class="location"></span> • <span class="date"></span></div>
+            </div>
+            <div class="flex justify-between mt-4">
+              <button class="edit-btn">Editar</button>
+              <button class="qr-btn">QR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- MODALS & TOAST -->
+    <div id="auth-modal" class="modal hidden" aria-hidden="true">...</div>
+
+    <!-- MODAL AGREGAR ITEM -->
+    <div id="item-modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close">&times;</button>
+        <h3>Agregar Item</h3>
+        <input id="new-name" placeholder="Nombre del item" />
+        <input id="new-code" placeholder="Código" />
+        <input id="new-category" placeholder="Categoría" />
+        <input id="new-location" placeholder="Ubicación" />
+        <input id="new-date" placeholder="Fecha" />
+        <textarea id="new-desc" placeholder="Descripción"></textarea>
+        <button id="save-item">Guardar</button>
+      </div>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
