@@ -1,5 +1,5 @@
 # Stockeando
-Estamos planificando la creación de un sistema de stock para gestionar un inventario compuesto por aproximadamente 200 productos. Este sistema estará diseñado para facilitar la organización, el seguimiento y el control eficiente de todos los artículos disponibles.
+Estamos planificando la creación de un sistema de stock para gestionar un inventario compuesto por aproximadamente 200 productos. Este sistema estará en el main una vez sea predicha la presentación del proyecto, esta diseñado para facilitar la organización, el seguimiento y el control eficiente de todos los artículos disponibles.
 
 Una de las características más importantes será la sección dedicada a la localización de cada producto dentro del stock. Esto permitirá a los usuarios visualizar de manera clara y precisa en qué lugar se encuentra cada artículo, facilitando su búsqueda y evitando pérdidas de tiempo. Además, esta función permitirá llevar un control en tiempo real del inventario, optimizando la logística interna y mejorando la eficiencia operativa.
 
